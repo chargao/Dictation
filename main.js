@@ -16,13 +16,13 @@ function docLoad(){
   textArea=document.getElementById("text");
   debug=document.getElementById("debug");
   
-  submit.onclick= function() {submitted()};
+  submit.onclick= function() {submitted();};
 }
 
 function submitted(){
   var text = textArea.value;
   
-  if (text==""||text==null){
+  if (text===""||text===null){
     alert("no text");
   }
   else{
